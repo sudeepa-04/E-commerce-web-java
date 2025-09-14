@@ -1,1 +1,22 @@
 /build/
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# Build directories
+/bin/
+/build/
+/target/
+
+# Java compiled classes
+*.class
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+
+# OS specific
+.DS_Store
+Thumbs.db
