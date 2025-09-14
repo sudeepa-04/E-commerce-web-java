@@ -1,0 +1,281 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #3498db;
+    color: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.cart, .payment {
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.payment-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #219150;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 50px;
+}
+.home-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+}
+.home-container h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.home-container p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+.home-container .btn {
+    display: inline-block;
+    background: #0073e6;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.home-container .btn:hover {
+    background: #005bb5;
+}
+/* Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e1e1e;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+}
+
+.product-table th {
+    background: #222;
+    font-weight: bold;
+}
+
+/* Image placeholder */
+.img-placeholder {
+    width: 80px;
+    height: 80px;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 2px;
+    background: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #005bb5;
+}
+/* Navbar */
+.navbar {
+    background: #1e1e1e;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 2px solid #333;
+}
+
+.navbar .nav-link {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navbar .nav-link:hover {
+    background: #0073e6;
+    color: white;
+}
+
+.navbar .welcome {
+    color: #ccc;
+    margin-right: auto; /* push links to the right */
+    font-size: 14px;
+}
+/* Login Page Styling */
+body {
+    background: #121212;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #f5f5f5;
+}
+
+.login-container {
+    width: 350px;
+    margin: 80px auto;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #00aaff;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background: #2b2b2b;
+    color: #fff;
+}
+
+.form-group input:focus {
+    border: 1px solid #00aaff;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #00aaff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0088cc;
+}
+
+.extra-link {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.extra-link a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.extra-link a:hover {
+    text-decoration: underline;
+}
